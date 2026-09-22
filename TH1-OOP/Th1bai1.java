@@ -16,7 +16,7 @@ public class Th1bai1 {
             double chuVi = 2 * Math.PI * banKinh;
             double dienTich = Math.PI * Math.pow(banKinh, 2);
             
-            // Hiển thị kết quả (làm tròn 2 chữ số thập phân cho đẹp)
+            // Hiển thị kết quả 
             System.out.println("ket qua");
             System.out.printf("chu vi hinh tron la: %.2f\n", chuVi);
             System.out.printf("dien tich hinh tron la: %.2f\n", dienTich);
