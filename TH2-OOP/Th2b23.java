@@ -37,7 +37,7 @@ public class ATM {
         return false;
     }
 
-    // HÀM MAIN ĐỂ CHẠY CHƯƠNG TRÌNH 
+    // hàm main
     public static void main(String[] args) {
         System.out.println("--- BÀI THỰC HÀNH ATM ---");
         // Tạo danh sách 5 tài khoản (Số tiền tối thiểu 100)
