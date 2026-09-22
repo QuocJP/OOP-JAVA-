@@ -120,7 +120,7 @@ public class PS {
         return Integer.compare(a, b);
     }
 
-    // HÀM MAIN ĐỂ CHẠY CHƯƠNG TRÌNH 
+    // hamf main để chayj chương trình 
     public static void main(String[] args) {
         System.out.println("BÀI THỰC HÀNH PHÂN SỐ");
         PS p = new PS(1, 2);
