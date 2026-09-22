@@ -30,7 +30,7 @@ public class Th1bai3 {
         }
         
         // 4. Hiển thị kết quả
-        System.out.println("\n--- KET QUA ---");
+        System.out.println("\nKET QUA");
         System.out.println("Mang ban vua nhap la: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");

@@ -11,7 +11,7 @@ public class Th1bai2 {
         System.out.print("Nhap he so b: ");
         double b = scanner.nextDouble();
         
-        System.out.println("--- KET QUA BIEN LUAN ---");
+        System.out.println("KET QUA BIEN LUAN");
         
         // Biện luận theo hệ số a và b
         if (a != 0) {

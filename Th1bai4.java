@@ -28,7 +28,7 @@ public class Th1bai4 {
         }
         
         // 3. Hiển thị mảng sau khi sắp xếp
-        System.out.println("\n--- MANG SAU KHI SAP XEP TANG DAN ---");
+        System.out.println("\nMANG SAU KHI SAP XEP TANG DAN");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }

@@ -44,7 +44,7 @@ public class Th1bai5 {
         }
         
         // 4. Hiển thị kết quả
-        System.out.println("\n--- KET QUA ---");
+        System.out.println("\nKET QUA");
         System.out.println("MMang da nhap: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
