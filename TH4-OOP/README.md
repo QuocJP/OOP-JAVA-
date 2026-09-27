@@ -1,2 +1,2 @@
 # bài thực hành số 4 
-__ làm theo kiểu tách files __ 
+__làm theo kiểu tách files__ 
