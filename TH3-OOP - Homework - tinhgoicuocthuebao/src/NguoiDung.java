@@ -1,4 +1,4 @@
-package Thuchanh3.GoiCuoc;
+
 
 public class NguoiDung {
     private String tenNguoiDung;
