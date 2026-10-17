@@ -8,7 +8,7 @@ __Nguyen Anh Quoc - K48A - OOP - Quy Nhon University__
 
 # 💻Programming language:
 ![Java](https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openid&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 # 📊GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=QuocJP&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)<br/>
