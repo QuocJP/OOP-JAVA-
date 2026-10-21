@@ -1,5 +1,4 @@
-package Thuchanh2.QuanLyNhanSu;
-import java.time.LocalDate;
+
 public class QuanLyNhanSu {
     protected String hoTen;
     protected LocalDate ngaySinh;
