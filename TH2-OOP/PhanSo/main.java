@@ -1,4 +1,4 @@
-package Thuchanh2.PhanSo;
+
 import java.util.Scanner;
 
 public class main {
