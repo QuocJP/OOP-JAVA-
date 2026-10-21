@@ -1,4 +1,4 @@
-package Thuchanh5.ThuVaBK.Entities;
+
 
 public class BuuKien extends BuuPham{
     private double tien;
