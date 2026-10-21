@@ -1,4 +1,4 @@
-package Thuchanh5.ThuVaBK.Entities;
+
 
 abstract public class BuuPham {
     protected String maBuuPham;
