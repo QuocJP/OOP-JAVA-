@@ -1,4 +1,4 @@
-package Thuchanh5.TinhDiemHP.Entities;
+
 
 abstract public class DiemHP {
     protected String tenHP;
