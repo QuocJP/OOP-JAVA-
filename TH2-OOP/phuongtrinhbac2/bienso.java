@@ -1,4 +1,4 @@
-package Thuchanh2.phuongtrinhbac2;
+
 import java.math.*;
 public class bienso {
     private int a;
