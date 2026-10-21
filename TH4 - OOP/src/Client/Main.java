@@ -1,8 +1,4 @@
-package Thuchanh4.Sinhvien.Client;
-import java.time.LocalDate;
 
-import Thuchanh4.Sinhvien.Entities.*;
-import Thuchanh4.Sinhvien.Management.*;
 public class Main {
     public static void main(String[] args) {
         SinhVien sv1 = new SinhVien(); SinhVien sv2 = new SinhVien(); SinhVien sv3 = new SinhVien();
@@ -26,9 +22,9 @@ public class Main {
         list.sapxep();
         list.lietke();
         System.out.println("---------------------");
-        list.lietke("Nam");
+        list.lietke("B");
         System.out.println("---------------------");
-        list.xoaTen("Hoa");
+        list.xoaTen("C");
         list.lietke();
     }
 }
