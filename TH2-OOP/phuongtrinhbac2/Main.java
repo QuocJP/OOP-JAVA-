@@ -1,4 +1,4 @@
-package Thuchanh2.phuongtrinhbac2;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] arggs){
