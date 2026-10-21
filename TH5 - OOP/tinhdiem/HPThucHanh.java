@@ -1,4 +1,4 @@
-package Thuchanh5.TinhDiemHP.Entities;
+
 
 public class HPThucHanh extends DiemHP{
     private int db1, db2, db3;
