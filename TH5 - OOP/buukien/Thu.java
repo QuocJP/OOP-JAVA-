@@ -1,4 +1,3 @@
-package Thuchanh5.ThuVaBK.Entities;
 
 public class Thu extends BuuPham {
     private int loaiThu;//1. Thu thuong; 2. Thu Bao Dam;
