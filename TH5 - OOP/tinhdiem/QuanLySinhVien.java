@@ -1,6 +1,4 @@
-package Thuchanh5.TinhDiemHP.Management;
 
-import Thuchanh5.TinhDiemHP.Entities.SinhVien;
 
 public class QuanLySinhVien {
     private SinhVien[] list;
