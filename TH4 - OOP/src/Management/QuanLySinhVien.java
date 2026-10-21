@@ -1,60 +1,28 @@
-package Management;
-
-import Entities.SinhVien;
-import java.text.Normalizer;
-import java.util.Locale;
-
+package Thuchanh4.Sinhvien.Management;
+import Thuchanh4.Sinhvien.Entities.SinhVien;
 public class QuanLySinhVien {
-    private final SinhVien[] ds;
+    private SinhVien [] ds;
     private int soSV;
 
-    public QuanLySinhVien(int sucChua) {
-        if (sucChua < 0) {
-            throw new IllegalArgumentException("Suc chua danh sach khong duoc am.");
-        }
-        ds = new SinhVien[sucChua];
+    public QuanLySinhVien(int n){
+        ds = new SinhVien[n];
+        this.soSV = 0;
     }
-
-    public boolean Them(SinhVien sv) {
-        if (sv == null) {
-            throw new IllegalArgumentException("Sinh vien khong duoc null.");
+    public void Them(SinhVien sv){
+        if(this.soSV < ds.length){
+            ds[soSV] = sv;
+            soSV++;
         }
-        if (soSV == ds.length) {
-            return false;
-        }
-        ds[soSV++] = sv;
-        return true;
     }
-
-    public void lietke() {
-        for (int i = 0; i < soSV; i++) {
+    public void lietke(){
+        for(int i = 0; i < soSV; i++){
             ds[i].hienThi();
         }
     }
-
-    public void lietke(double diemToiThieu) {
-        for (int i = 0; i < soSV; i++) {
-            if (ds[i].getdTB() >= diemToiThieu) {
-                ds[i].hienThi();
-            }
-        }
-    }
-
-    public void lietke(String ten) {
-        String tenCanTim = chuanHoaTen(ten.trim());
-        for (int i = 0; i < soSV; i++) {
-            if (chuanHoaTen(ds[i].layTen()).equalsIgnoreCase(tenCanTim)) {
-                ds[i].hienThi();
-            }
-        }
-    }
-
-    public void sapxep() {
-        for (int i = 0; i < soSV - 1; i++) {
-            for (int j = i + 1; j < soSV; j++) {
-                String tenThuTuI = taoKhoaSapXep(ds[i]);
-                String tenThuTuJ = taoKhoaSapXep(ds[j]);
-                if (chuanHoaTen(tenThuTuI).compareToIgnoreCase(chuanHoaTen(tenThuTuJ)) > 0) {
+    public void sapxep(){
+        for(int i = 0; i < soSV - 1; i++){
+            for(int j = 1; j < soSV; j++){
+                if(ds[i].TachTen().compareTo(ds[j].TachTen()) > 0){
                     SinhVien temp = ds[i];
                     ds[i] = ds[j];
                     ds[j] = temp;
@@ -62,43 +30,33 @@ public class QuanLySinhVien {
             }
         }
     }
-
-    private String taoKhoaSapXep(SinhVien sv) {
-        return sv.layTen() + " " + sv.layHo() + " " + sv.layDem();
+    public void lietke(double x){
+        for(int i = 0; i < soSV; i++){
+            if(ds[i].getdTB() >= 8.0)
+                ds[i].hienThi();
+        }
     }
-
-    public boolean xoaTen(String ten) {
-        String tenCanXoa = chuanHoaTen(ten.trim());
-        for (int i = 0; i < soSV; i++) {
-            if (chuanHoaTen(ds[i].layTen()).equalsIgnoreCase(tenCanXoa)) {
-                for (int j = i; j < soSV - 1; j++) {
+    public void lietke(String a){
+        for(int i = 0; i < soSV; i ++){
+            if(ds[i].TachTen().equals(a))
+                ds[i].hienThi();
+        }
+    }
+    public void xoaTen(String a){
+        for(int i = 0; i < soSV; i++){
+            if(ds[i].TachTen().equals(a)){
+                for(int j = i; j < soSV - 1; j++){
                     ds[j] = ds[j + 1];
-                }
-                ds[--soSV] = null;
-                return true;
+                }soSV--;
+                ds[soSV] = null;
+                return;
             }
         }
-        return false;
     }
-
-    private String chuanHoaTen(String ten) {
-        String khongDau = Normalizer.normalize(ten, Normalizer.Form.NFD)
-                .replaceAll("\\p{M}", "");
-        return khongDau.replace('đ', 'd').replace('Đ', 'D').toLowerCase(Locale.ROOT);
-    }
-
-    public double TinhTuoiTB() {
-        if (soSV == 0) {
-            return 0.0;
-        }
-        double tongTuoi = 0.0;
-        for (int i = 0; i < soSV; i++) {
-            tongTuoi += ds[i].layTuoi();
-        }
-        return tongTuoi / soSV;
-    }
-
-    public int getSoSV() {
-        return soSV;
+    public double TinhTuoiTB(){
+        double Tong = 0;
+        for(int i = 0; i < soSV; i++){
+            Tong += ds[i].TinhTuoi();
+        }return Tong / soSV;
     }
 }
