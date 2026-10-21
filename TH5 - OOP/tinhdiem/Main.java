@@ -1,10 +1,4 @@
-package Thuchanh5.TinhDiemHP.Client;
 
-import Thuchanh5.TinhDiemHP.Entities.DiemHP;
-import Thuchanh5.TinhDiemHP.Entities.HPLyThuyet;
-import Thuchanh5.TinhDiemHP.Entities.HPThucHanh;
-import Thuchanh5.TinhDiemHP.Entities.SinhVien;
-import Thuchanh5.TinhDiemHP.Management.QuanLySinhVien;
 
 public class Main {
     public static void main(String[] args){
