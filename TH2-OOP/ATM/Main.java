@@ -1,4 +1,4 @@
-package Thuchanh2.ATM;
+
 public class Main {
     public static void main(String[] arggs){
         ATM ds[] = new ATM[5];
