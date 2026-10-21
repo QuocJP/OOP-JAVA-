@@ -1,6 +1,4 @@
-package Thuchanh5.ThuVaBK.Management;
 
-import Thuchanh5.ThuVaBK.Entities.*;
 
 public class ThungThu {
     private BuuPham[] list;
