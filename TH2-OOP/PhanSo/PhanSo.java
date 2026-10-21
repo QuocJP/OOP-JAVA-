@@ -1,4 +1,4 @@
-package Thuchanh2.PhanSo;
+
 
 public class PhanSo {
     private int tuSo;
