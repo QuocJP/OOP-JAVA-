@@ -1,4 +1,4 @@
-package Thuchanh5.TinhDiemHP.Entities;
+
 
 public class HPLyThuyet extends DiemHP{
     private int chuyenCan;
