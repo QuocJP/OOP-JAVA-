@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         SinhVien sv1 = new SinhVien(); SinhVien sv2 = new SinhVien(); SinhVien sv3 = new SinhVien();
         sv1.setHoTen("Nguyen Van A");
-        sv1.setNgaySinh(LocalDate.of(2007, 11, 16));
+        sv1.setNgaySinh(LocalDate.of(2007, 10, 10));
         sv1.setdTB(8.6f);
         sv2.setHoTen("Nguyen Van B");
         sv2.setNgaySinh(LocalDate.of(2007, 07, 07));
