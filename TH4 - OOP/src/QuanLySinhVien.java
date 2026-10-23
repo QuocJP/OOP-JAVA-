@@ -1,5 +1,4 @@
-package Thuchanh4.Sinhvien.Management;
-import Thuchanh4.Sinhvien.Entities.SinhVien;
+
 public class QuanLySinhVien {
     private SinhVien [] ds;
     private int soSV;
