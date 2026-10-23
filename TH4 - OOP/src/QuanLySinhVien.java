@@ -20,7 +20,7 @@ public class QuanLySinhVien {
     }
     public void sapxep(){
         for(int i = 0; i < soSV - 1; i++){
-            for(int j = 1; j < soSV; j++){
+            for(int j = i + 1; j < soSV; j++){
                 if(ds[i].TachTen().compareTo(ds[j].TachTen()) > 0){
                     SinhVien temp = ds[i];
                     ds[i] = ds[j];
