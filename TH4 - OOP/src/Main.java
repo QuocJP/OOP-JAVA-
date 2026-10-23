@@ -17,7 +17,7 @@ public class Main {
         list.Them(sv3);
         list.lietke();
         System.out.println("---------------------");
-        System.out.println("Diem trung binh cua cac hoc sinh: " + list.TinhTuoiTB());
+        System.out.println("Tuoi trung binh cua cac hoc sinh: " + list.TinhTuoiTB());
         System.out.println("---------------------");
         list.sapxep();
         list.lietke();
