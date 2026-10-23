@@ -1,6 +1,6 @@
 
 public class Main {
-    public static void main(String[] arggs){
+    public static void main(String[] args){
         ATM ds[] = new ATM[5];
         ds[0] = new ATM("1111111", 100.0);
         ds[1] = new ATM("2222222", 100.0);
