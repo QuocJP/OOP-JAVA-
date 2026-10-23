@@ -24,7 +24,7 @@ public class ATM {
         soDu = st + soDu;
         System.out.println("So du hien tai: " + soDu);
     }public boolean rutTien(Double st){
-        if(st < soDu){
+        if(st <= soDu){
             soDu = soDu - st;
             return true;
         }return false;
