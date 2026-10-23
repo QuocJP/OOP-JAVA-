@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] arggs){
@@ -11,8 +10,12 @@ public class Main {
         pt.ganBSb(b);
         pt.ganBSc(c);
         double ketqua[] = pt.tinhtoan(a, b, c);
-        for(int i = 0; i < ketqua.length; i++){
-            System.out.println("Ket qua cua Phuong trinh: " + ketqua[i]);
+        
+        // Bổ sung kiểm tra null
+        if (ketqua != null) {
+            for(int i = 0; i < ketqua.length; i++){
+                System.out.println("Ket qua cua Phuong trinh: " + ketqua[i]);
+            }
         }
     }
 }
