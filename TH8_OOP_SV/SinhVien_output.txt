@@ -1,0 +1,5 @@
+SV001|Nguyen Van A|2002|8.5|SVSP|FPT Software|8.0
+SV002|Tran Thi B|2003|7.2|SVTH|Quan ly sinh vien|7.5
+SV003|Le Van C|2001|9.0|SVSP|Viettel|9.5
+SV004|Pham Thi D|2002|6.5|SVTH|Website ban hang|5.0
+SV005|Hoang Van E|2003|7.8|SVSP|Samsung|6.0
