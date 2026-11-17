@@ -1,0 +1,12 @@
+hello: danh tu-loi chao-say hello to someone
+hello: dong tu-chao hoi-he hellos his teacher
+book: danh tu-quyen sach-read an interesting book
+book: dong tu-dat cho-book a flight ticket
+book: dong tu-ghi chep lai-the police booked the suspect
+run: dong tu-chay-he runs 5 miles every day
+run: danh tu-cuoc chay-go for a morning run
+computer: danh tu-may vi tinh-study computer science
+learn: dong tu-hoc tap-learn Java programming
+teacher: danh tu-giao vien-the teacher explains the lesson
+student: danh tu-sinh vien-a hardworking student
+java: danh tu-ngon ngu lap trinh huong doi tuong-Java is powerful

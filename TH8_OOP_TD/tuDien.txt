@@ -1,0 +1,4 @@
+hello|danh_tu|xin chao|Hello, Where are you from?
+book|danh_tu|quyen sach|I read books in my free time.
+run|dong_tu|chay|I run in the field.
+beautiful|tinh_tu|xinh dep|She is very beautiful.
